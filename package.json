@@ -1,0 +1,20 @@
+{
+  "name": "tglab",
+  "version": "1.0.0",
+  "description": "tglab home task",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
